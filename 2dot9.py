@@ -47,3 +47,28 @@ k=type(memoryview(bytes(5)))
 print(k)
 #output: <class 'memoryview'>
 
+x= 1+2
+print("1 + 2 =", x)
+#1 + 2 = 3
+x= 2-1
+print(x)
+#1
+x= 3*4
+print(x)
+#12
+x= 3/2
+print(x)
+print(type(x))
+#2.0
+x= 5%2
+print(x)
+#1
+x= 6//2
+print(x)
+#3
+x= 2**2
+print(x)
+#4
+x= 2**3
+print(x)
+#8
